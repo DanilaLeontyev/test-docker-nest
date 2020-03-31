@@ -23,6 +23,7 @@ services:
   redis:
     container_name: redis
     image: redis:5
+    
     networks:
       - webnet
   postgres:
